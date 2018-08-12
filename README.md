@@ -1,4 +1,4 @@
-# Adslot frotn end test
+# Adslot front end test
 
 ## Project structure
 

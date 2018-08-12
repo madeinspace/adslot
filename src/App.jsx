@@ -1,14 +1,15 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
 import { Container, Row, Col } from 'reactstrap';
-import Hello from './components/hello-world';
+import Bookings from './components/bookings';
 import './scss/main.scss';
 
 const App = () => (
   <Container className="app">
     <Row>
       <Col>
-        <Hello title="world" />
+        <h1>Adslot.</h1>
+        <Bookings />
       </Col>
     </Row>
   </Container>
