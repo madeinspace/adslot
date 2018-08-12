@@ -1,0 +1,9 @@
+@import "../../scss/_variables";
+
+.booking{
+    margin-top: 2rem;
+    &.isLive{
+        background-color: #E2F0E0;
+    }
+}
+

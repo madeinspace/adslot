@@ -1,0 +1,43 @@
+.seller{
+    margin-bottom:40px;
+    h3{
+        margin-bottom: 1.2rem;
+    }
+
+.noActiveBookings{
+    background-color: #F9F9F9;
+    padding:12px;
+    border: 1px solid #ddd;
+}
+
+    table{
+        width:100%;
+        border-collapse: collapse;
+        font-weight: 300;
+        thead {
+            text-align: right;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: #F9F9F9;
+            font-weight: 600;
+            tr{
+                th:nth-child(-n+2){
+                    text-align: left;
+                }
+            }
+            
+        }
+        tbody {
+            text-align: right;
+            tr{
+                td:nth-child(-n+1){
+                    font-weight: 400;
+                }
+            }
+        }
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    }
+}
